@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+</head>
+<body>
+    <header>
+        <h1>Arminder Singh</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Projects.html">Projects</a>
+            <a href="Experience.html">Experience</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="Contact-content">
+        <div Class="Top-Contact-Content">
+            <img class="Contactimg" src="images/ContactMe.png" alt="clip-art">
+            <h1 class="Heading-Contact">GET IN TOUCH</h1>
+        </div>
+
+        <div class="Contact-box">
+            <p class="Subheading">Have a question or want to work together? Feel free to reach out to me!</p>
+            <div class="Contact-form">
+                <form action="send_email.php" method="post">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <div class="Social-Media">
+            <a href="https://linkedin.com/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:youremail@example.com"><i class="far fa-envelope"></i></a>
+        </div>
+    </div>
+    
+
+    <footer id="footer">
+        <p>Crafted with passion and precision by Arminder Singh</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
